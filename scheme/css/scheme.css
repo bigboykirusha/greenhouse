@@ -1,0 +1,120 @@
+/* scheme/css/scheme.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  flex-direction: column;
+  background-color: #000;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+.interactiveSection {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 30%; /* Пропорциональное соотношение, например 65% от ширины */
+  background-color: transparent;
+}
+
+#animation-container svg {
+  position: relative;
+  z-index: 10;
+}
+
+#animation-container,
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 20px);
+  object-fit: contain;
+  padding-top: 20px;
+}
+
+#animation-container {
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.language-selector a {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  margin-right: 5px;
+}
+
+.language-selector a:last-child {
+  margin-right: 0;
+}
+
+.language-selector a.inactive-lang {
+  opacity: 0.5;
+}
+
+/* Стили для контейнера всех карточек */
+.textInformation {
+  display: grid; /* Используем грид для размещения карточек */
+  grid-template-columns: repeat(6, 1fr); /* Шесть столбцов на больших экранах */
+  gap: 10px; /* Расстояние между карточками */
+  padding-top: 10px; /* Внутренний отступ */
+  margin: 0; /* Убираем внешние отступы */
+}
+
+/* Стили для отдельных карточек */
+.cell {
+  background-color: #000; /* Цвет фона карточки */
+  color: white; /* Цвет текста */
+  border-radius: 10px; /* Закругленные углы */
+  padding: 20px; /* Внутренний отступ */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left; /* Выравнивание текста по левому краю */
+  min-height: 200px;
+}
+
+.containerIcons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; /* Расстояние между изображениями */
+}
+
+/* Стили для контейнеров с несколькими изображениями */
+.containerLightIcons,
+.containerInternetIcons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; /* Расстояние между изображениями */
+}
+
+/* Стили для изображений внутри карточек */
+.cell img {
+  width: auto; /* Автоматическая ширина, чтобы сохранить пропорции */
+  height: 50px; /* Единая высота изображения */
+  margin-bottom: 30px; /* Внешний отступ снизу */
+}
+
+/* Стили для заголовков */
+.cell h2 {
+  font-size: 18px; /* Размер шрифта заголовков */
+  margin: 10px 0; /* Внешние отступы сверху и снизу */
+  display: flex;
+  margin: 0 0 auto;
+}
+
+/* Стили для абзацев с описанием */
+.cell p {
+  font-size: 14px; /* Размер шрифта текста */
+  margin: 10px 0 0; /* Внешний отступ сверху */
+  flex-grow: 1; /* Растягиваем на оставшееся пространство */
+  min-height: 50px;
+}
+

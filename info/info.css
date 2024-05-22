@@ -1,0 +1,26 @@
+.info-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.title {
+  color: white;
+}
+
+.company-info,
+.contact-info,
+.social-info,
+.legal-info,
+.customer-service-info {
+  width: 360px;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.language-selector a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}

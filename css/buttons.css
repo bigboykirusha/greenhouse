@@ -1,0 +1,41 @@
+
+.explore-button {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  text-decoration: none;
+  color: #fff;
+}
+
+.explore-button img {
+  margin-top: 10px;
+}
+
+/* .button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.button img {
+  margin-top: 0.5rem;
+  width: 25px;
+  height: 25px;
+} */

@@ -1,0 +1,71 @@
+/* scheme/css/media.css */
+
+/* Медиа-запросы для уменьшения размеров содержимого на меньших экранах */
+@media (max-width: 1440px) {
+  .textInformation {
+    grid-template-columns: repeat(3, 1fr); /* Три столбца на средних экранах */
+  }
+
+  .cell img {
+    height: 40px; /* Уменьшение размера изображений */
+  }
+
+  .cell h2 {
+    font-size: 16px; /* Уменьшение размера заголовков */
+  }
+
+  .cell p {
+    font-size: 12px; /* Уменьшение размера текста */
+  }
+}
+
+@media (max-width: 1024px) {
+  .textInformation {
+    grid-template-columns: repeat(2, 1fr); /* Два столбца на маленьких экранах */
+  }
+
+  .cell {
+    padding: 15px; /* Уменьшение отступов внутри карточек */
+    min-height: 0;
+  }
+
+  .cell img {
+    height: 40px; /* Уменьшение размера изображений */
+  }
+
+  .cell h2 {
+    font-size: 14px; /* Уменьшение размера заголовков */
+  }
+
+  .cell p {
+    font-size: 12px; /* Уменьшение размера текста */
+  }
+}
+
+@media (max-width: 768px) {
+.navbar, .form-box {
+  display: none;
+  }
+
+  nav {
+    display: block;
+  }
+
+  .cell {
+    padding: 10px; /* Еще большее уменьшение отступов внутри карточек */
+  }
+
+  .cell img {
+    height: 30px; /* Еще большее уменьшение размера изображений */
+  }
+
+  .cell h2 {
+    font-size: 12px; /* Еще большее уменьшение размера заголовков */
+  }
+
+  .cell p {
+    font-size: 10px; /* Еще большее уменьшение размера текста */
+    margin-bottom: auto;
+  }
+}
+

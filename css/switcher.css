@@ -1,0 +1,36 @@
+.button-box {
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 10px;
+	background: #000;
+	height: 27px;
+}
+
+.toggle-btn {
+	padding: 0 15px;
+	cursor: pointer;
+	height: 27px;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+   color: #fff;
+	margin: auto 0;
+}
+
+.toggle-btn.active {
+  color: #000; /* Цвет текста активной кнопки */
+}
+
+#btn {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	background: #fff;
+	border-radius: 10px;
+	transition: .3s;
+}

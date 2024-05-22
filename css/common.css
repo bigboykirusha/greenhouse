@@ -1,0 +1,33 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Mono", sans-serif;
+}
+
+header,
+footer {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+main {
+  padding: 1em;
+}
+

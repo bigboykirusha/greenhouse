@@ -1,0 +1,28 @@
+.faq h1 {
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  background: white;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.faq-question {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  display: none;
+  padding-top: 1rem;
+}
+
+.language-selector a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}

@@ -1,0 +1,17 @@
+.language-selector a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.fan-icon img {
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

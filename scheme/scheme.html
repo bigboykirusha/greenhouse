@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Greenhouses</title>
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/scheme/css/cellHighlighter.css" />
+    <link rel="stylesheet" href="/scheme/css/scheme.css" />
+    <link rel="stylesheet" href="/scheme/css/media.css" />
+    <link rel="stylesheet" href="/css/switcher.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/index.html">RE-E</a>
+      </div>
+      <div class="navbar">
+        <div>Contacts</div>
+        <div>Q&A</div>
+      </div>
+      <div class="form-box">
+        <div class="button-box language-selector">
+          <div id="btn"></div>
+          <button href="?lang=en" type="button" class="toggle-btn active" id="btnEN" onclick="leftClick()">EN</button>
+          <button href="?lang=ru" type="button" class="toggle-btn" id="btnRU" onclick="rightClick()">RU</button>
+        </div>
+      </div>
+      <nav>
+        <img src="/scheme/img/menu.svg" alt="">
+      </nav>
+    </header>
+    <main>
+      <section class="interactiveSection">
+        <div id="animation-container"></div>
+        <img
+        id="pump"
+          src="/scheme/img/pumpAndPipes.png"
+          class="layer"
+          data-cell="watering"
+        />
+        <img
+          src="/scheme/img/conditioner.png"
+          class="layer"
+          data-cell="ventilation"
+        />
+        <img src="/scheme/img/dehumidifier.png" class="layer" data-cell="co2" />
+        <img src="/scheme/img/lighting.png" class="layer" data-cell="light" />
+      </section>
+      <section class="textInformation">
+        <!-- Левая сторона -->
+        <div class="cell" id="light">
+            <div class="containerIcons">
+                <img src="/scheme/svg/icons/light.svg" alt="Light Icon" />
+                <img src="/scheme/svg/icons/spectrumIcon.svg" alt="Spectrum Icon" />
+            </div>
+            <div class="content">
+                <h2 data-translate="light">Свет</h2>
+                <p data-translate="light">Настраивайте гибкий световой график, подходящий для каждой из стадий
+                    роста растения.</p>
+            </div>
+        </div>
+        <div class="cell" id="ventilation">
+            <img src="/scheme/svg/icons/ventilation.svg" alt="Ventilation Icon" />
+            <div class="content">
+                <h2 data-translate="ventilation">Вентиляция</h2>
+                <p data-translate="ventilation">Контролируйте температуру и влажность воздуха, а также работу
+                    всех вентиляторов и вытяжек. </p>
+            </div>
+        </div>
+        <div class="cell" id="co2">
+            <img src="/scheme/svg/icons/co2Icon.svg" alt="CO2 Icon" />
+            <div class="content">
+                <h2 data-translate="co2_level">Уровень CO2</h2>
+                <p data-translate="co2_level">Обеспечивайте растения необходимым СО2 с нашей системой контроля
+                    концентрации газа.</p>
+            </div>
+        </div>
+        <!-- Правая сторона -->
+        <div class="cell" id="soil">
+          <img src="/scheme/svg/icons/soil.svg" alt="Soil Icon" />
+          <div class="content">
+              <h2 data-translate="soil">Почва</h2>
+              <p data-translate="soil">Следите за состоянием почвы с помощью датчиков измерения pH, NPK и температуры.</p>
+          </div>
+        </div>
+        <div class="cell" id="watering">
+            <img src="/scheme/svg/icons/wateringSystems.svg" alt="Watering Icon" />
+            <div class="content">
+                <h2 data-translate="irrigation_and_water_treatment">Полив и водоподготовка</h2>
+                <p data-translate="irrigation_and_water_treatment">Подготавливайте воду, используя систему
+                    измерения температуры, pH и TDS, и настраивайте удобный график полива.</p>
+            </div>
+        </div>
+        <div class="cell" id="internet">
+            <div class="containerIcons">
+                <img src="/scheme/svg/icons/mobileIson.svg" alt="Mobile Icon" />
+                <img src="/scheme/svg/icons/idCamIcon.svg" alt="Camera Icon" />
+                <img src="/scheme/svg/icons/wifi.png" alt="Wifi Icon" />    
+            </div>
+            <div class="content">
+                <h2 data-translate="internet_connection_and_video_monitoring">Связь с интернетом
+                    <br />и видеонаблюдение</h2>
+                <p data-translate="internet_connection_and_video_monitoring">Управляйте теплицей, получайте
+                    информацию и наблюдайте за растениями в режиме реального времени.</p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- <footer></footer> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+    <script src="/scheme/js/scriptLottie.js"></script>
+    <script src="/scheme/js/cellHighlighter.js"></script>
+    <script src="/js/translation.js"></script>
+    <script src="/js/switcher.js"></script>
+  </body>
+</html>

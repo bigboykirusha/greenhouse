@@ -1,0 +1,56 @@
+@media (max-width: 480px) {
+  .intro {
+    padding: 1rem;
+  }
+
+  header {
+    padding: 5px;
+  }
+
+  header .logo {
+    font-size: 1.2rem;
+  }
+
+  header nav a {
+    margin-left: 0.5rem;
+  }
+
+  footer {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+
+  .language-selector a {
+    margin-right: 0.5rem;
+  }
+
+  .fan-icon img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 1.5rem;
+  }
+
+  .explore-button {
+    bottom: 30px;
+  }
+
+  header nav a {
+    margin-left: 0.8rem;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .language-selector a {
+    margin-right: 0.8rem;
+  }
+}
+
+@media (max-width: 992px) {
+}

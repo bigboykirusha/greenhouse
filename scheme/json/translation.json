@@ -1,0 +1,62 @@
+{
+  "light": {
+    "ru": {
+      "title": "Свет",
+      "paragraph": "Настраивайте гибкий световой график, подходящий для каждой из стадий роста растения."
+    },
+    "en": {
+      "title": "Light",
+      "paragraph": "Set a flexible lighting schedule, suitable for each stage of plant's growth."
+    }
+  },
+  "ventilation": {
+    "ru": {
+      "title": "Вентиляция",
+      "paragraph": "Контролируйте температуру и влажность воздуха, а также работу всех вентиляторов и вытяжек."
+    },
+    "en": {
+      "title": "Ventilation",
+      "paragraph": "Control air temperature and humidity, as well as the operation of all vents and exhaust devices."
+    }
+  },
+  "co2_level": {
+    "ru": {
+      "title": "Уровень CO2",
+      "paragraph": "Обеспечивайте растения необходимым СО2 с нашей системой контроля концентрации газа."
+    },
+    "en": {
+      "title": "CO2 Level",
+      "paragraph": "Provide your plants with the CO2 levels they need with our gas monitoring system."
+    }
+  },
+  "irrigation_and_water_treatment": {
+    "ru": {
+      "title": "Полив и водоподготовка",
+      "paragraph": "Подготавливайте воду, используя систему измерения температуры, pH и TDS, и настраивайте удобный график полива."
+    },
+    "en": {
+      "title": "Irrigation<br>and Water Treatment",
+      "paragraph": "Prepare water using temperature, pH and TDS monitoring system and set a convenient watering schedule."
+    }
+  },
+  "soil": {
+    "ru": {
+      "title": "Почва",
+      "paragraph": "Следите за состоянием почвы с помощью датчиков измерения pH, NPK и температуры."
+    },
+    "en": {
+      "title": "Soil",
+      "paragraph": "Monitor the soil condition using pH, NPK and temperature sensors."
+    }
+  },
+  "internet_connection_and_video_monitoring": {
+    "ru": {
+      "title": "Связь с интернетом<br>и видеонаблюдение",
+      "paragraph": "Управляйте теплицей, получайте информацию и наблюдайте за растениями в режиме реального времени."
+    },
+    "en": {
+      "title": "Internet Connection<br>and Video Monitoring",
+      "paragraph": "Manage the greenhouse, get information and watch your plants in real time."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+header {
+  border: 0;
+}
+
+.logo {
+  height: 27px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: auto 0;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.navbar div {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar div:hover {
+  transform: scale(1.1);
+}
+
+nav {
+  display: none; 
+}
+
+nav img {
+  width: 27px;
+  height: 27px;
+}
+
+nav:hover {
+  color: #d1d1d1;
+}
+
